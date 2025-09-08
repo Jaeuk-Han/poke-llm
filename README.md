@@ -8,7 +8,7 @@
 
 LLM과 RAG를 이용해 포켓몬 배틀을 해보는 실험 프로젝트입니다.  
 [poke-env](https://poke-env.readthedocs.io/en/stable/) 환경 위에서 `LLMPlayer`와 `RandomPlayer`를 대결시키고,  
-이후에는 **로컬 추론 모델**과 **강화학습(RL)**으로 확장할 계획입니다.
+이후에는 **로컬 추론 모델**과 **강화학습**으로 확장할 계획입니다.
 
 ---
 
