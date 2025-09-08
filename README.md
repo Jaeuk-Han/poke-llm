@@ -108,7 +108,7 @@ poke-llm/
 ![Run Example](assets/run_example.png)
 
 LLM 추론 과정은 JSONL 형태로 저장됩니다.  
-아래는 간단한 예시로, **턴 1에서 LLM이 드닐레이브(Baxcalibur)에게 어떤 행동을 명령했는지**를 보여줍니다.
+아래는 간단한 예시로, **턴 15에서 LLM이 드닐레이브(Baxcalibur)에게 어떤 행동을 명령했는지**를 보여줍니다.
 
 ```json
 {
