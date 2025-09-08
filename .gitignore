@@ -1,1 +1,35 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
 .env
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Byte-compiled / temporary
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Jupyter / ipynb
+.ipynb_checkpoints/
+
+# OS-specific
+.DS_Store
+Thumbs.db
