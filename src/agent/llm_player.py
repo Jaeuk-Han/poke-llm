@@ -1,3 +1,16 @@
+"""
+LLMPlayer module
+
+- Extends poke-env's Player class to implement an agent that selects actions
+  (move/switch) in Pokémon battles using an LLM.
+- Currently integrates with the OpenAI API for testing purposes, but will be
+  extended to support local inference in the future.
+- Sends the current battle state and candidate actions to the LLM, then parses
+  and validates its JSON response to execute the decision.
+- Provides safe fallbacks (e.g., expected damage heuristic) when the LLM output
+  is invalid or unavailable.
+"""
+
 # ruff: noqa
 from __future__ import annotations
 

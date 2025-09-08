@@ -1,3 +1,14 @@
+"""
+LLM vs Random test script
+
+- Runs battles between the LLMPlayer and a RandomPlayer using the poke-env framework.
+- Designed to test LLM-driven decision making via the OpenAI API, with future plans
+  to migrate toward local inference instead of API calls.
+- Supports command-line arguments (--battles, --format, --host, --port, etc.) to configure battles.
+- Can run on both local and public Showdown servers.
+- Optionally prints or opens a spectator URL for live battle observation.
+"""
+
 # ruff: noqa
 from __future__ import annotations
 
