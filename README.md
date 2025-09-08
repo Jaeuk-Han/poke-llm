@@ -1,4 +1,6 @@
-# Poke-LLM
+# 🕹️ Poke-LLM (LLM-powered Pokémon Battle Agent)
+
+[English Version](README.en.md)
 
 ![Project Thumbnail](assets/tumbnail.png)
 
